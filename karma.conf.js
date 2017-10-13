@@ -25,9 +25,9 @@ module.exports = function (config) {
             'app/app.js',
             'app/js/generated/config.js',
             'app/app.config.js',
-            'app/controllers/editor.controller.js',
-            'app/services/editor.service.js',
-            'app/services/editor.service.spec.js'
+            'app/controllers/alinta.controller.js',
+            'app/services/alinta.service.js',
+            'app/services/alinta.service.spec.js'
             
             
         ],

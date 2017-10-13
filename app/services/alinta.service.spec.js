@@ -31,7 +31,6 @@ describe('MovieController', function () {
 
             // Setup the data we wish to return for the .then function in the controller
             deferred.resolve();  
-         
             // We have to call apply for this to work
             scope.$apply();
             scope.getmovies();
