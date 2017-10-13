@@ -1,5 +1,7 @@
 ## Alinta Interview app
 
+AngularJS and Bootstrap based SPA framework , can be extended to use routing as ui-router is already included.
+
 ### Install instructions
 
 Pre-Requisites: Install Gulp and Karma globally for commandline interface , follow the below commands
@@ -22,10 +24,16 @@ This will load the browser with the movie listing
 
 #### All the nmp scripts used are listed below
 
->   "postinstall": "gulp loadConfig && bower install --config.directory=${npm_package_config_bower_dir}"
->    "prestart": "npm install"
->    "start": "http-server app -a 0.0.0.0 -p 8080 -c-1 --cors -o && gulp"
->    "pretest": "npm install"
->    "test": "node node_modules/karma/bin/karma start karma.conf.js"
->    "test-single-run": "node node_modules/karma/bin/karma start karma.conf.js  --single-run"
->    "preupdate-webdriver": "npm install"
+>"postinstall: "gulp loadConfig && bower install --config.directory=${npm_package_config_bower_dir}
+
+>"prestart: "npm install"
+
+>"start: "http-server app -a 0.0.0.0 -p 8080 -c-1 --cors -o && gulp"
+
+>"pretest: "npm install"
+
+>"test: "node node_modules/karma/bin/karma start karma.conf.js"
+
+>"test-single-run: "node node_modules/karma/bin/karma start karma.conf.js  --single-run"
+
+>"preupdate-webdriver: "npm install"
