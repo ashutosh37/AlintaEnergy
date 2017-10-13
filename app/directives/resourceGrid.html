@@ -1,0 +1,10 @@
+<div class="row border">
+    <div class="row movieContainer"> {{groupedData.key}}
+        <div ng-repeat="(key , item) in groupedData">
+            <h3>{{key}}</h3>
+            <div ng-repeat="data in item">
+                <h6>{{data.name}} | {{data.movie}}</h6>
+            </div>
+        </div>
+    </div>
+</div>

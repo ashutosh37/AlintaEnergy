@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "API_ENDPOINT": "https://alintacodingtest.azurewebsites.net/api"
+    },
+    "stage": {
+        "API_ENDPOINT": "https://alintacodingtest.azurewebsites.net/api"
+    },
+    "prod": {
+        "API_ENDPOINT": "https://alintacodingtest.azurewebsites.net/api"
+    }
+}
